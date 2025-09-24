@@ -14,5 +14,9 @@ It hooks some internal shell functions to show display icon columns at ListView.
 Each shell extensions (WinFIlemarkExt.dll on some processes) communicate with main agent program (WinFilemarkExt.exe)
 to receive file's mark status.
 
+# How to register icon column at system.
+See followed link.\
+https://github.com/bho3538/NSEIconColumn
+
 # License
 MIT License
