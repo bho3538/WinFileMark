@@ -1,0 +1,9 @@
+{
+    "mainpage.enable_label" : "활성화",
+    "mainpage.disable_label" : "비활성화",
+    "mainpage.about_label" : "정보",
+    "common.close" : "닫기",
+    "common.save" : "저장",
+    "infobarpage.enableinfobar" : "알림창 표시",
+    "infobarpage.message" : "알림창 메시지 설정"
+}

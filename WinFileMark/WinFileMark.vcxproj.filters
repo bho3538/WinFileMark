@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\UI">
+      <UniqueIdentifier>{2c5f2475-c9a8-4b39-9af5-50c77c2dd0e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\UI">
+      <UniqueIdentifier>{f8807ba2-cb42-4b5e-8087-f21b9cd3a88d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Etc">
+      <UniqueIdentifier>{891566ad-74df-4711-97d9-2ce327b94032}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Etc">
+      <UniqueIdentifier>{552da3a0-a656-4079-8d9a-505eb37f138d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Module">
+      <UniqueIdentifier>{e07475d9-6c7f-408b-a6a6-e86bcdb65695}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Module">
+      <UniqueIdentifier>{b1f88353-2c79-420b-ae3e-d008688e68cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\IPC">
+      <UniqueIdentifier>{dd31c687-f1cf-47b9-adcb-02cb1408e41a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\IPC">
+      <UniqueIdentifier>{f7376c48-2cd3-418d-9541-c351901a0fad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinFileMark.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="WebViewBase.cpp">
+      <Filter>소스 파일\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>소스 파일\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="WebViewWaitEvent.cpp">
+      <Filter>소스 파일\Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="InstallHelper.cpp">
+      <Filter>소스 파일\Module</Filter>
+    </ClCompile>
+    <ClCompile Include="WinFIleMarkServer.cpp">
+      <Filter>소스 파일\IPC</Filter>
+    </ClCompile>
+    <ClCompile Include="DuplicateRunning.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="WebViewBase.h">
+      <Filter>헤더 파일\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWindow.h">
+      <Filter>헤더 파일\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="WebViewWaitEvent.h">
+      <Filter>헤더 파일\Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="InstallHelper.h">
+      <Filter>헤더 파일\Module</Filter>
+    </ClInclude>
+    <ClInclude Include="WinFIleMarkServer.h">
+      <Filter>헤더 파일\IPC</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DuplicateRunning.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="$(MSBuildThisFileDirectory)..\..\natvis\wil.natvis" />
+    <Natvis Include="$(MSBuildThisFileDirectory)..\..\natvis\wil.natstepfilter" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

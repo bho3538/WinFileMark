@@ -1,0 +1,70 @@
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/windows/2006/propertydescription" schemaVersion="1.0" >
+  <propertyDescriptionList publisher="byungho" product="NSE1.VF">
+    <propertyDescription name="WinFileMark.StatusUI" formatID="{41376319-D83F-4C78-9673-F0B906174500}" propID="1">
+      <searchInfo reIndexPatterns="" processReIndexPatternsImmediately="true" inInvertedIndex="false" isColumn="false">
+      </searchInfo>
+      <typeInfo type="Blob" isViewable="true" groupingRange="Enumerated">
+      </typeInfo>
+      <labelInfo label="WinFileMark">
+      </labelInfo>
+      <displayInfo defaultColumnWidth="10">
+        <drawControl control="IconList">
+        </drawControl>
+      </displayInfo>
+    </propertyDescription>
+    <propertyDescription name="WinFileMark.Status" formatID="{41376319-D83F-4C78-9673-F0B906174500}" propID="2">
+      <searchInfo reIndexPatterns="" processReIndexPatternsImmediately="true" inInvertedIndex="false" isColumn="false">
+      </searchInfo>
+      <typeInfo type="UInt32" isInnate="true" isViewable="true">
+      </typeInfo>
+      <displayInfo displayType="Enumerated">
+        <enumeratedList>
+          <enum name="None" value="0" text="None">
+          </enum>
+          <enum name="Red" value="1" text="Red">
+            <image res="%ALLUSERSPROFILE%\winfilemark\statusresource.dll,0">
+            </image>
+          </enum>
+        </enumeratedList>
+      </displayInfo>
+      <labelInfo hideLabel="true">
+      </labelInfo>
+    </propertyDescription>
+	    <propertyDescription name="WinFileMark.Status2" formatID="{41376319-D83F-4C78-9673-F0B906174500}" propID="3">
+      <searchInfo reIndexPatterns="" processReIndexPatternsImmediately="true" inInvertedIndex="false" isColumn="false">
+      </searchInfo>
+      <typeInfo type="UInt32" isInnate="true" isViewable="true">
+      </typeInfo>
+      <displayInfo displayType="Enumerated">
+        <enumeratedList>
+          <enum name="None" value="0" text="None">
+          </enum>
+          <enum name="Green" value="1" text="Green">
+            <image res="%ALLUSERSPROFILE%\winfilemark\statusresource.dll,1">
+            </image>
+          </enum>
+        </enumeratedList>
+      </displayInfo>
+      <labelInfo hideLabel="true">
+      </labelInfo>
+    </propertyDescription>
+	    <propertyDescription name="WinFileMark.Status3" formatID="{41376319-D83F-4C78-9673-F0B906174500}" propID="4">
+      <searchInfo reIndexPatterns="" processReIndexPatternsImmediately="true" inInvertedIndex="false" isColumn="false">
+      </searchInfo>
+      <typeInfo type="UInt32" isInnate="true" isViewable="true">
+      </typeInfo>
+      <displayInfo displayType="Enumerated">
+        <enumeratedList>
+          <enum name="None" value="0" text="None">
+          </enum>
+          <enum name="Blue" value="1" text="Blue">
+            <image res="%ALLUSERSPROFILE%\winfilemark\statusresource.dll,2">
+            </image>
+          </enum>
+        </enumeratedList>
+      </displayInfo>
+      <labelInfo hideLabel="true">
+      </labelInfo>
+    </propertyDescription>
+  </propertyDescriptionList>
+</schema>

@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\shellext">
+      <UniqueIdentifier>{236a0b82-1212-4ebc-b97a-088b2d0ff894}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\shellext">
+      <UniqueIdentifier>{7b5257c7-8ffd-4bc4-9f8d-6cd97214689d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\hook">
+      <UniqueIdentifier>{8597f840-c708-492e-9766-0e829dabda97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\hook">
+      <UniqueIdentifier>{209817b7-c82d-4bcc-8ed0-a5c3720d08b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\interface">
+      <UniqueIdentifier>{cb091f46-62b0-4930-b83c-ca6f1f3e42ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\infobar">
+      <UniqueIdentifier>{6e7513da-c569-4221-bef2-68b3b573e734}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\infobar">
+      <UniqueIdentifier>{bf5c5edf-9fd9-42ea-8007-63b2d7ecb118}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\coulmn">
+      <UniqueIdentifier>{564f2616-2948-473e-81fc-f2ae6e3e67ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\column">
+      <UniqueIdentifier>{1168c9b9-56bd-48d8-9119-008924773a75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\cache">
+      <UniqueIdentifier>{3eba892d-d3b6-4b4f-8a5d-140550981c18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\cache">
+      <UniqueIdentifier>{a801d312-919a-4958-af00-959799117426}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CClassFactory.h">
+      <Filter>헤더 파일\shellext</Filter>
+    </ClInclude>
+    <ClInclude Include="CNotificationEditContextMenu.h">
+      <Filter>헤더 파일\shellext</Filter>
+    </ClInclude>
+    <ClInclude Include="CHookShellFolder.h">
+      <Filter>헤더 파일\hook</Filter>
+    </ClInclude>
+    <ClInclude Include="IBrowserProgress.h">
+      <Filter>헤더 파일\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="IInfoBarHost.h">
+      <Filter>헤더 파일\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="IInfoBarMessage.h">
+      <Filter>헤더 파일\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="CInfoBar.h">
+      <Filter>헤더 파일\infobar</Filter>
+    </ClInclude>
+    <ClInclude Include="CInfoBarMessageImpl.h">
+      <Filter>헤더 파일\infobar</Filter>
+    </ClInclude>
+    <ClInclude Include="CInfoBarManager.h">
+      <Filter>헤더 파일\infobar</Filter>
+    </ClInclude>
+    <ClInclude Include="CColumn.h">
+      <Filter>헤더 파일\column</Filter>
+    </ClInclude>
+    <ClInclude Include="CWinFileMarkContextMenu.h">
+      <Filter>헤더 파일\shellext</Filter>
+    </ClInclude>
+    <ClInclude Include="CWinFileMarkChildContextMenu.h">
+      <Filter>헤더 파일\shellext</Filter>
+    </ClInclude>
+    <ClInclude Include="CWinFileMarkEnumContextMenu.h">
+      <Filter>헤더 파일\shellext</Filter>
+    </ClInclude>
+    <ClInclude Include="DBCache.h">
+      <Filter>헤더 파일\cache</Filter>
+    </ClInclude>
+    <ClInclude Include="PipePool.h">
+      <Filter>헤더 파일\cache</Filter>
+    </ClInclude>
+    <ClInclude Include="IconStatusCacheManager.h">
+      <Filter>헤더 파일\cache</Filter>
+    </ClInclude>
+    <ClInclude Include="IconStatusCache.h">
+      <Filter>헤더 파일\cache</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CClassFactory.cpp">
+      <Filter>소스 파일\shellext</Filter>
+    </ClCompile>
+    <ClCompile Include="CNotificationEditContextMenu.cpp">
+      <Filter>소스 파일\shellext</Filter>
+    </ClCompile>
+    <ClCompile Include="CHookShellFolder.cpp">
+      <Filter>소스 파일\hook</Filter>
+    </ClCompile>
+    <ClCompile Include="CInfobar.cpp">
+      <Filter>소스 파일\infobar</Filter>
+    </ClCompile>
+    <ClCompile Include="CInfoBarMessageImpl.cpp">
+      <Filter>소스 파일\infobar</Filter>
+    </ClCompile>
+    <ClCompile Include="CInfoBarManager.cpp">
+      <Filter>소스 파일\infobar</Filter>
+    </ClCompile>
+    <ClCompile Include="CWinFileMarkContextMenu.cpp">
+      <Filter>소스 파일\shellext</Filter>
+    </ClCompile>
+    <ClCompile Include="CWinFileMarkChildContextMenu.cpp">
+      <Filter>소스 파일\shellext</Filter>
+    </ClCompile>
+    <ClCompile Include="CWinFileMarkEnumContextMenu.cpp">
+      <Filter>소스 파일\shellext</Filter>
+    </ClCompile>
+    <ClCompile Include="DBCache.cpp">
+      <Filter>소스 파일\cache</Filter>
+    </ClCompile>
+    <ClCompile Include="CColumn.cpp">
+      <Filter>소스 파일\hook</Filter>
+    </ClCompile>
+    <ClCompile Include="PipePool.cpp">
+      <Filter>소스 파일\cache</Filter>
+    </ClCompile>
+    <ClCompile Include="IconStatusCacheManager.cpp">
+      <Filter>소스 파일\cache</Filter>
+    </ClCompile>
+    <ClCompile Include="IconStatusCache.cpp">
+      <Filter>소스 파일\cache</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source.def">
+      <Filter>헤더 파일</Filter>
+    </None>
+  </ItemGroup>
+</Project>

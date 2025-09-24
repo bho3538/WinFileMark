@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\IPC">
+      <UniqueIdentifier>{ae3ea530-4eb9-43d0-9c65-9f46e365d085}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\IPC">
+      <UniqueIdentifier>{876b6f2e-0963-4174-90c4-c83db9b76151}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\IPC\DataModel">
+      <UniqueIdentifier>{99dbcb3e-2501-429e-bb2a-3bf7913c5957}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\IPC\DataModel">
+      <UniqueIdentifier>{aa006595-aabe-4f15-a960-ee77eef1231c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CShellUtils.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CStringUtils.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DB.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CPipeClient.h">
+      <Filter>헤더 파일\IPC</Filter>
+    </ClInclude>
+    <ClInclude Include="CPipeContext.h">
+      <Filter>헤더 파일\IPC</Filter>
+    </ClInclude>
+    <ClInclude Include="CPipeServer.h">
+      <Filter>헤더 파일\IPC</Filter>
+    </ClInclude>
+    <ClInclude Include="CDataModelBase.h">
+      <Filter>헤더 파일\IPC\DataModel</Filter>
+    </ClInclude>
+    <ClInclude Include="CMemoryReader.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CMemoryStream.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CRequestIconStatus.h">
+      <Filter>헤더 파일\IPC\DataModel</Filter>
+    </ClInclude>
+    <ClInclude Include="CResponseIconStatus.h">
+      <Filter>헤더 파일\IPC\DataModel</Filter>
+    </ClInclude>
+    <ClInclude Include="CRequestSetIconStatus.h">
+      <Filter>헤더 파일\IPC\DataModel</Filter>
+    </ClInclude>
+    <ClInclude Include="CRequestRenameFile.h">
+      <Filter>헤더 파일\IPC\DataModel</Filter>
+    </ClInclude>
+    <ClInclude Include="CRequestDeleteFile.h">
+      <Filter>헤더 파일\IPC\DataModel</Filter>
+    </ClInclude>
+    <ClInclude Include="CRequestMoveFile.h">
+      <Filter>헤더 파일\IPC\DataModel</Filter>
+    </ClInclude>
+    <ClInclude Include="CResponseMoveFile.h">
+      <Filter>헤더 파일\IPC\DataModel</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CShellUtils.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CStringUtils.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DB.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CPipeClient.cpp">
+      <Filter>소스 파일\IPC</Filter>
+    </ClCompile>
+    <ClCompile Include="CPipeServer.cpp">
+      <Filter>소스 파일\IPC</Filter>
+    </ClCompile>
+    <ClCompile Include="CDataModelBase.cpp">
+      <Filter>소스 파일\IPC\DataModel</Filter>
+    </ClCompile>
+    <ClCompile Include="CMemoryReader.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CMemoryStream.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CRequestIconStatus.cpp">
+      <Filter>소스 파일\IPC\DataModel</Filter>
+    </ClCompile>
+    <ClCompile Include="CResponseIconStatus.cpp">
+      <Filter>소스 파일\IPC\DataModel</Filter>
+    </ClCompile>
+    <ClCompile Include="CRequestSetIconStatus.cpp">
+      <Filter>소스 파일\IPC\DataModel</Filter>
+    </ClCompile>
+    <ClCompile Include="CRequestRenameFile.cpp">
+      <Filter>소스 파일\IPC\DataModel</Filter>
+    </ClCompile>
+    <ClCompile Include="CRequestDeleteFile.cpp">
+      <Filter>소스 파일\IPC\DataModel</Filter>
+    </ClCompile>
+    <ClCompile Include="CRequestMoveFile.cpp">
+      <Filter>소스 파일\IPC\DataModel</Filter>
+    </ClCompile>
+    <ClCompile Include="CResponseMoveFile.cpp">
+      <Filter>소스 파일\IPC\DataModel</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

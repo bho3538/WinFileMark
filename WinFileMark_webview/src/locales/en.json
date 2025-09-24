@@ -1,0 +1,9 @@
+{
+    "mainpage.enable_label" : "Enable",
+    "mainpage.disable_label" : "Disable",
+    "mainpage.about_label" : "About",
+    "common.close" : "Close",
+    "common.save" : "Save",
+    "infobarpage.enableinfobar" : "Show information bar",
+    "infobarpage.message" : "Set information bar message"
+}
